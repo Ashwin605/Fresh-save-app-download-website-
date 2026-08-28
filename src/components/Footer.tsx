@@ -31,16 +31,9 @@ export function Footer() {
               href="#home"
               onClick={(e) => handleNavClick(e, '#home')}
               className="flex items-center gap-2.5 mb-4 w-fit focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fresh-400 rounded-lg"
-              aria-label="Fresh Save — go to top"
+              aria-label="MYOFERS — go to top"
             >
-              <div className="w-9 h-9 rounded-xl bg-brand flex items-center justify-center">
-                <svg viewBox="0 0 36 36" fill="none" className="w-5 h-5" aria-hidden="true">
-                  <path d="M18 6C11.373 6 6 11.373 6 18s5.373 12 12 12 12-5.373 12-12S24.627 6 18 6Z" fill="white" fillOpacity="0.2"/>
-                  <path d="M12 18c0-1.5.4-2.9 1.1-4.1L18 22l4.9-8.1A6 6 0 1 1 12 18Z" fill="white"/>
-                  <circle cx="18" cy="18" r="2.5" fill="white"/>
-                </svg>
-              </div>
-              <span className="font-bold text-lg text-white tracking-tight">Fresh Save</span>
+              <img src="/logo.png" alt="MYOFERS" className="h-10 w-auto" />
             </a>
             <p className="text-charcoal-400 text-sm leading-relaxed max-w-xs">
               Connecting customers with nearby stores and products. Shop local, shop smart.
@@ -87,7 +80,7 @@ export function Footer() {
               href={APP_CONFIG.downloadUrl}
               download
               className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-fresh-600/20 border border-fresh-600/30 text-fresh-400 text-sm font-medium hover:bg-fresh-600/30 hover:border-fresh-500/40 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fresh-400"
-              aria-label="Download Fresh Save APK"
+              aria-label="Download MYOFERS APK"
             >
               <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" aria-hidden="true">
                 <path d="M12 3v13m0 0-4-4m4 4 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -102,7 +95,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-charcoal-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-charcoal-500">
-            © {year} Fresh Save. All rights reserved.
+            © {year} MYOFERS. All rights reserved.
           </p>
           {APP_CONFIG.version && (
             <p className="text-xs text-charcoal-600">

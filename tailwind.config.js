@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Fresh Save brand palette
+        // MYOFERS brand palette
         fresh: {
           50:  '#f0faf0',
           100: '#dcf5dc',

@@ -186,7 +186,7 @@ export function Hero() {
     <section
       id="home"
       className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden"
-      aria-label="Fresh Save — hero"
+      aria-label="MYOFERS — hero"
     >
       {/* Background */}
       <div className="absolute inset-0 -z-10">
@@ -224,14 +224,14 @@ export function Hero() {
                     <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.75"/>
                     <path d="M12 8v4l3 3" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
                   </svg>
-                  Fresh Save is available for Android
+                  MYOFERS is available for Android
                 </div>
               ) : (
                 <a
                   href={APP_CONFIG.downloadUrl}
                   download
                   className="btn-primary"
-                  aria-label="Download Fresh Save APK for Android"
+                  aria-label="Download MYOFERS APK for Android"
                 >
                   <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" aria-hidden="true">
                     <path d="M12 3v13m0 0-4-4m4 4 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -243,7 +243,7 @@ export function Hero() {
               <button
                 onClick={() => handleScroll('#features')}
                 className="btn-secondary"
-                aria-label="Explore Fresh Save features"
+                aria-label="Explore MYOFERS features"
               >
                 Explore Features
                 <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" aria-hidden="true">

@@ -4,7 +4,7 @@ const steps = [
   {
     number: 1,
     title: 'Download the APK',
-    description: 'Tap the download button above to get the Fresh Save APK file.',
+    description: 'Tap the download button above to get the MYOFERS APK file.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" aria-hidden="true">
         <path d="M12 3v13m0 0-4-4m4 4 4-4" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round"/>
@@ -47,8 +47,8 @@ const steps = [
   },
   {
     number: 5,
-    title: 'Open Fresh Save',
-    description: 'Find Fresh Save on your home screen and start exploring.',
+    title: 'Open MYOFERS',
+    description: 'Find MYOFERS on your home screen and start exploring.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" aria-hidden="true">
         <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.75"/>
@@ -79,7 +79,7 @@ export function InstallationGuide() {
               <span className="text-gradient">ready in seconds</span>
             </h2>
             <p className="text-lg text-charcoal-500 max-w-lg mx-auto leading-relaxed">
-              Follow these simple steps to get Fresh Save running on your Android device.
+              Follow these simple steps to get MYOFERS running on your Android device.
             </p>
           </div>
         </RevealWrapper>

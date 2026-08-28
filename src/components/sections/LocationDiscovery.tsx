@@ -113,7 +113,7 @@ export function LocationDiscovery() {
                 <span className="text-gradient">where you are</span>
               </h2>
               <p className="text-lg text-charcoal-500 leading-relaxed mb-6">
-                Fresh Save uses your location to show you stores and products that are actually near you. No endless scrolling through irrelevant results — just what&apos;s around the corner.
+                MYOFERS uses your location to show you stores and products that are actually near you. No endless scrolling through irrelevant results — just what&apos;s around the corner.
               </p>
 
               <div className="space-y-4">

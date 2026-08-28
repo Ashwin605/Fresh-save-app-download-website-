@@ -9,7 +9,7 @@ const features = [
       </svg>
     ),
     title: 'Nearby Store Discovery',
-    description: 'Find real stores around your current location. Fresh Save shows you what\'s available nearby.',
+    description: 'Find real stores around your current location. MYOFERS shows you what\'s available nearby.',
     color: 'bg-fresh-50 text-fresh-700 border-fresh-200',
   },
   {

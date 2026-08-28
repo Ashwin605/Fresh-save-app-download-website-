@@ -4,7 +4,7 @@ const steps = [
   {
     number: '01',
     title: 'Choose your location',
-    description: 'Tell Fresh Save where you are so we can find what\'s nearby.',
+    description: 'Tell MYOFERS where you are so we can find what\'s nearby.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7" aria-hidden="true">
         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7Z" stroke="currentColor" strokeWidth="1.75" strokeLinejoin="round"/>
@@ -42,7 +42,7 @@ export function HowItWorks() {
     <section
       id="how-it-works"
       className="section-padding bg-surface-2 relative"
-      aria-label="How Fresh Save works"
+      aria-label="How MYOFERS works"
     >
       {/* Subtle background pattern */}
       <div className="absolute inset-0 bg-grid opacity-50 pointer-events-none" aria-hidden="true" />
@@ -55,7 +55,7 @@ export function HowItWorks() {
               Simple & Fast
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-charcoal-950 tracking-tight mt-4 mb-4 text-balance">
-              How Fresh Save{' '}
+              How MYOFERS{' '}
               <span className="text-gradient">works</span>
             </h2>
             <p className="text-lg text-charcoal-500 max-w-xl mx-auto leading-relaxed">

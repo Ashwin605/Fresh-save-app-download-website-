@@ -51,7 +51,7 @@ export function NearbyStores() {
                 <span className="text-gradient">right around you</span>
               </h2>
               <p className="text-lg text-charcoal-500 leading-relaxed mb-6">
-                Fresh Save shows you stores within your area, sorted by distance. See what&apos;s available, check their products and visit the ones that have what you need.
+                MYOFERS shows you stores within your area, sorted by distance. See what&apos;s available, check their products and visit the ones that have what you need.
               </p>
 
               <div className="flex flex-wrap gap-3">

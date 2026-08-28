@@ -3,27 +3,27 @@ import { RevealWrapper } from '../ui/RevealWrapper'
 
 const faqItems = [
   {
-    question: 'What is Fresh Save?',
+    question: 'What is MYOFERS?',
     answer:
-      'Fresh Save is an Android application that helps you discover local stores and products near your location. It connects customers with nearby shopkeepers, making local shopping easier and more convenient.',
+      'MYOFERS is an Android application that helps you discover local stores and products near your location. It connects customers with nearby shopkeepers, making local shopping easier and more convenient.',
   },
   {
     question: 'How do I install the APK?',
     answer:
-      'Download the APK from the download section above, open the downloaded file, allow installation from this source if Android prompts you, then tap Install. Once installed, you\'ll find Fresh Save on your home screen.',
+      'Download the APK from the download section above, open the downloaded file, allow installation from this source if Android prompts you, then tap Install. Once installed, you\'ll find MYOFERS on your home screen.',
   },
   {
-    question: 'Why isn\'t Fresh Save on the Play Store?',
+    question: 'Why isn\'t MYOFERS on the Play Store?',
     answer:
-      'Fresh Save is currently distributed as a direct APK download from this official website. We may publish to the Play Store in the future, but for now you can download the latest version directly here.',
+      'MYOFERS is currently distributed as a direct APK download from this official website. We may publish to the Play Store in the future, but for now you can download the latest version directly here.',
   },
   {
-    question: 'Is Fresh Save free?',
+    question: 'Is MYOFERS free?',
     answer:
-      'Yes, Fresh Save is free to download and use. There are no hidden charges for browsing stores and products.',
+      'Yes, MYOFERS is free to download and use. There are no hidden charges for browsing stores and products.',
   },
   {
-    question: 'Can I use Fresh Save without creating an account?',
+    question: 'Can I use MYOFERS without creating an account?',
     answer:
       'You can browse stores and products without an account. However, some features like placing orders and managing your cart may require you to sign in.',
   },

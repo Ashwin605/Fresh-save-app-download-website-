@@ -56,25 +56,9 @@ export function Navigation() {
             href="#home"
             onClick={(e) => handleNavClick(e, '#home')}
             className="flex items-center gap-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fresh-400 rounded-lg"
-            aria-label="Fresh Save — go to top"
+            aria-label="MYOFERS — go to top"
           >
-            <div className="w-9 h-9 rounded-xl bg-brand flex items-center justify-center shadow-fresh shrink-0">
-              <svg viewBox="0 0 36 36" fill="none" className="w-5 h-5" aria-hidden="true">
-                <path
-                  d="M18 6C11.373 6 6 11.373 6 18s5.373 12 12 12 12-5.373 12-12S24.627 6 18 6Z"
-                  fill="white"
-                  fillOpacity="0.2"
-                />
-                <path
-                  d="M12 18c0-1.5.4-2.9 1.1-4.1L18 22l4.9-8.1A6 6 0 1 1 12 18Z"
-                  fill="white"
-                />
-                <circle cx="18" cy="18" r="2.5" fill="white" />
-              </svg>
-            </div>
-            <span className={`font-bold text-lg tracking-tight transition-colors duration-300 ${scrolled ? 'text-charcoal-900' : 'text-charcoal-900'}`}>
-              Fresh Save
-            </span>
+            <img src="/logo.png" alt="MYOFERS" className="h-12 w-auto" />
           </a>
 
           {/* Desktop nav */}
@@ -100,7 +84,7 @@ export function Navigation() {
               href={APP_CONFIG.downloadUrl}
               download
               className="btn-primary py-2.5 px-5 text-sm"
-              aria-label="Download Fresh Save APK for Android"
+              aria-label="Download MYOFERS APK for Android"
             >
               <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" aria-hidden="true">
                 <path d="M5.09 13.9A7 7 0 1 1 19 12" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
@@ -161,7 +145,7 @@ export function Navigation() {
               href={APP_CONFIG.downloadUrl}
               download
               className="btn-primary w-full text-sm justify-center"
-              aria-label="Download Fresh Save APK for Android"
+              aria-label="Download MYOFERS APK for Android"
               onClick={() => setMenuOpen(false)}
             >
               <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" aria-hidden="true">

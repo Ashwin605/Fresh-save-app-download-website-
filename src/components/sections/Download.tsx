@@ -9,7 +9,7 @@ export function Download() {
     <section
       id="download"
       className="section-padding relative overflow-hidden"
-      aria-label="Download Fresh Save"
+      aria-label="Download MYOFERS"
     >
       {/* Background */}
       <div className="absolute inset-0 bg-surface" aria-hidden="true" />
@@ -24,11 +24,11 @@ export function Download() {
               Download
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-charcoal-950 tracking-tight mt-4 mb-4 text-balance">
-              Get Fresh Save on{' '}
+              Get MYOFERS on{' '}
               <span className="text-gradient">Android</span>
             </h2>
             <p className="text-lg text-charcoal-500 max-w-lg mx-auto leading-relaxed">
-              Download the latest Fresh Save APK and start discovering stores around you.
+              Download the latest MYOFERS APK and start discovering stores around you.
             </p>
           </div>
         </RevealWrapper>
@@ -53,7 +53,7 @@ export function Download() {
                       <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.75"/>
                       <path d="M12 16v-4M12 8h.01" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
                     </svg>
-                    Fresh Save is currently available for Android
+                    MYOFERS is currently available for Android
                   </div>
                   <p className="text-sm text-charcoal-500">
                     To download, open this page on an Android device or scan the QR code below from an Android phone.
@@ -66,7 +66,7 @@ export function Download() {
                     href={APP_CONFIG.downloadUrl}
                     download
                     className="btn-primary text-lg px-10 py-5 mb-4 inline-flex"
-                    aria-label="Download Fresh Save APK for Android"
+                    aria-label="Download MYOFERS APK for Android"
                   >
                     <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" aria-hidden="true">
                       <path d="M12 3v13m0 0-4-4m4 4 4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -116,12 +116,12 @@ export function Download() {
                     href={APP_CONFIG.downloadUrl}
                     download
                     className="block hover:opacity-80 hover:scale-105 transition-all duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fresh-400 focus-visible:ring-offset-2 rounded-2xl"
-                    aria-label="Click QR code to download Fresh Save APK for Android"
+                    aria-label="Click QR code to download MYOFERS APK for Android"
                     title="Click to download APK directly"
                   >
                     <img 
                       src="/qr.png" 
-                      alt="Scan to download Fresh Save" 
+                      alt="Scan to download MYOFERS" 
                       className="w-40 h-40 rounded-xl border border-charcoal-100 shadow-card bg-white p-2"
                     />
                   </a>
@@ -134,7 +134,7 @@ export function Download() {
               {/* Mobile — show reduced QR text */}
               {device === 'android' && (
                 <p className="text-sm text-charcoal-500">
-                  Share this page with friends so they can download Fresh Save too.
+                  Share this page with friends so they can download MYOFERS too.
                 </p>
               )}
             </div>

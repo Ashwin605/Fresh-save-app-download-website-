@@ -87,11 +87,11 @@ export function ShopkeeperEcosystem() {
 
               <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight mb-5 text-balance">
                 Bring your store to{' '}
-                <span className="text-fresh-400">Fresh Save</span>
+                <span className="text-fresh-400">MYOFERS</span>
               </h2>
 
               <p className="text-lg text-charcoal-400 leading-relaxed mb-8">
-                Fresh Save isn&apos;t just for customers. If you run a local store, you can join the Fresh Save ecosystem and reach customers right in your neighbourhood.
+                MYOFERS isn&apos;t just for customers. If you run a local store, you can join the MYOFERS ecosystem and reach customers right in your neighbourhood.
               </p>
 
               <button

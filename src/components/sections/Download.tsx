@@ -1,7 +1,6 @@
 import { APP_CONFIG } from '../../config/app'
 import { useDeviceDetect } from '../../hooks/useDeviceDetect'
 import { RevealWrapper } from '../ui/RevealWrapper'
-import { QRCodeSVG } from '../ui/QRCode'
 
 export function Download() {
   const device = useDeviceDetect()
@@ -125,7 +124,11 @@ export function Download() {
                     aria-label="Click QR code to download Fresh Save APK for Android"
                     title="Click to download APK directly"
                   >
-                    <QRCodeSVG value={qrUrl} size={160} />
+                    <img 
+                      src="/qr.png" 
+                      alt="Scan to download Fresh Save" 
+                      className="w-40 h-40 rounded-xl border border-charcoal-100 shadow-card bg-white p-2"
+                    />
                   </a>
                 </div>
                 <p className="text-2xs text-charcoal-400">

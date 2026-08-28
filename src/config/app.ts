@@ -20,7 +20,7 @@ export const APP_CONFIG = {
   version: null as string | null,
 
   // Set to the actual file size once known (e.g. '18 MB'), or null to hide it.
-  apkSize: '73.9 MB' as string | null,
+  apkSize: '74.0 MB' as string | null,
 
   // Minimum Android version required
   minAndroid: 'Android 6.0+',

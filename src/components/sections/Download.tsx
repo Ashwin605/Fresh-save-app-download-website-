@@ -118,7 +118,15 @@ export function Download() {
                   Scan to download on your phone
                 </p>
                 <div className="flex justify-center mb-3">
-                  <QRCodeSVG value={qrUrl} size={160} />
+                  <a
+                    href={APP_CONFIG.downloadUrl}
+                    download
+                    className="block hover:opacity-80 hover:scale-105 transition-all duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fresh-400 focus-visible:ring-offset-2 rounded-2xl"
+                    aria-label="Click QR code to download Fresh Save APK for Android"
+                    title="Click to download APK directly"
+                  >
+                    <QRCodeSVG value={qrUrl} size={160} />
+                  </a>
                 </div>
                 <p className="text-2xs text-charcoal-400">
                   Point your Android phone&apos;s camera at the QR code

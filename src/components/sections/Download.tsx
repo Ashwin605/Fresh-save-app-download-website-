@@ -5,11 +5,6 @@ import { RevealWrapper } from '../ui/RevealWrapper'
 export function Download() {
   const device = useDeviceDetect()
 
-  // Build the public URL for QR code
-  const qrUrl = APP_CONFIG.websiteUrl
-    ? `${APP_CONFIG.websiteUrl}/#download`
-    : APP_CONFIG.downloadUrl
-
   return (
     <section
       id="download"

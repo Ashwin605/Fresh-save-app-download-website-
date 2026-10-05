@@ -14,7 +14,7 @@ export const APP_CONFIG = {
   // ─── APK Download ──────────────────────────────────────────────────────────
   // Replace with your real hosted APK URL before deployment.
   // Example: 'https://myofers.app/downloads/MYOFERS.apk'
-  downloadUrl: 'https://github.com/Ashwin605/Fresh-save-app-download-website-/releases/download/v1.0.1/app-release.apk',
+  downloadUrl: 'https://github.com/Ashwin605/Fresh-save-app-download-website-/releases/download/v1.0.1/apk_new.apk',
 
   // Set to the actual version string once known, or null to hide it.
   version: null as string | null,

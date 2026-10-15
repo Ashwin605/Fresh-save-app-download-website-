@@ -14,13 +14,13 @@ export const APP_CONFIG = {
   // ─── APK Download ──────────────────────────────────────────────────────────
   // Replace with your real hosted APK URL before deployment.
   // Example: 'https://myofers.app/downloads/MYOFERS.apk'
-  downloadUrl: 'https://github.com/Ashwin605/Fresh-save-app-download-website-/releases/download/v1.0.1/FreshSave-Fixed.apk',
+  downloadUrl: 'https://github.com/Ashwin605/Fresh-save-app-download-website-/raw/main/public/app-release.apk',
 
   // Set to the actual version string once known, or null to hide it.
   version: null as string | null,
 
   // Set to the actual file size once known (e.g. '18 MB'), or null to hide it.
-  apkSize: '74.0 MB' as string | null,
+  apkSize: '85.4 MB' as string | null,
 
   // Minimum Android version required
   minAndroid: 'Android 6.0+',

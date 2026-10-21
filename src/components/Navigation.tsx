@@ -83,6 +83,8 @@ export function Navigation() {
             <a
               href={APP_CONFIG.downloadUrl}
               download
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary py-2.5 px-5 text-sm"
               aria-label="Download MYOFERS APK for Android"
             >
@@ -144,6 +146,8 @@ export function Navigation() {
             <a
               href={APP_CONFIG.downloadUrl}
               download
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary w-full text-sm justify-center"
               aria-label="Download MYOFERS APK for Android"
               onClick={() => setMenuOpen(false)}

@@ -230,6 +230,8 @@ export function Hero() {
                 <a
                   href={APP_CONFIG.downloadUrl}
                   download
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-primary"
                   aria-label="Download MYOFERS APK for Android"
                 >

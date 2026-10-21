@@ -79,6 +79,8 @@ export function Footer() {
             <a
               href={APP_CONFIG.downloadUrl}
               download
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-fresh-600/20 border border-fresh-600/30 text-fresh-400 text-sm font-medium hover:bg-fresh-600/30 hover:border-fresh-500/40 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fresh-400"
               aria-label="Download MYOFERS APK"
             >

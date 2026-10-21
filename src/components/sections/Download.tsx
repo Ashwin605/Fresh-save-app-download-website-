@@ -65,6 +65,8 @@ export function Download() {
                   <a
                     href={APP_CONFIG.downloadUrl}
                     download
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="btn-primary text-lg px-10 py-5 mb-4 inline-flex"
                     aria-label="Download MYOFERS APK for Android"
                   >
@@ -115,6 +117,8 @@ export function Download() {
                   <a
                     href={APP_CONFIG.downloadUrl}
                     download
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="block hover:opacity-80 hover:scale-105 transition-all duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fresh-400 focus-visible:ring-offset-2 rounded-2xl"
                     aria-label="Click QR code to download MYOFERS APK for Android"
                     title="Click to download APK directly"
@@ -131,11 +135,22 @@ export function Download() {
                 </p>
               </div>
 
-              {/* Mobile — show reduced QR text */}
+              {/* Mobile — show quick install steps */}
               {device === 'android' && (
-                <p className="text-sm text-charcoal-500">
-                  Share this page with friends so they can download MYOFERS too.
-                </p>
+                <div className="mt-6 pt-5 border-t border-charcoal-100 text-left bg-charcoal-50/70 rounded-2xl p-4 sm:p-5">
+                  <p className="text-xs font-bold text-charcoal-900 mb-2.5 flex items-center gap-2">
+                    <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-fresh-600 shrink-0" aria-hidden="true">
+                      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1.75"/>
+                      <path d="M12 16v-4M12 8h.01" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round"/>
+                    </svg>
+                    How to install after downloading:
+                  </p>
+                  <ol className="text-xs text-charcoal-600 space-y-1.5 list-decimal list-inside leading-relaxed">
+                    <li>Swipe down your phone&apos;s notification shade from the top.</li>
+                    <li>If Android prompts <strong className="text-charcoal-800">&quot;File might be harmful&quot;</strong>, tap <strong className="text-charcoal-800">&quot;Download anyway&quot;</strong>.</li>
+                    <li>Tap the downloaded file (or find it in your phone&apos;s <strong className="text-charcoal-800">Files &gt; Downloads</strong> app) to install.</li>
+                  </ol>
+                </div>
               )}
             </div>
           </div>
